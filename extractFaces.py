@@ -10,7 +10,7 @@ number_files = len(list)
 print(" number of files at input folder: ",number_files,)
 
 
-if not os.path.exists("output"):  #your output file' name. If you'd change it to another, don't forget to change cv2.imwrite function.
+if not os.path.exists("output"):  #your output file's name. If you'd change it to another, don't forget to change cv2.imwrite function.
     os.mkdir('output')
 else:
     print("Processing stopped. 'Output' file already exists at the current workspace. You need to delete it or move to another directory. " )
