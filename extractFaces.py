@@ -16,7 +16,7 @@ else:
     print("Processing stopped. 'Output' file already exists at the current workspace. You need to delete it or move to another directory. " )
 i=0
 
-for img in glob.glob(inputfolder + "/*.jpg"):  #images in the input file must be on jpg format, otherwise you need to change 'jpg' as your wish.
+for img in glob.glob(inputfolder + "/*.jpg"):  #images in the input file must be in jpg format, otherwise you need to change 'jpg' as your wish.
 
     target=cv2.imread(img)
 
