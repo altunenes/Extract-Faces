@@ -1,5 +1,5 @@
 # Extract-Faces
-Have you ever work faces in the laboratory? It's a painfully time loss when you need to extract whole faces with photoshop or other apps. This basic script will extract all faces separately from the input folder and write them an output folder. Just put your all images into the input folder and let the script process all images that you've put on.
+Have you ever work faces in the laboratory? When you need to extract faces from their bodies or heads with photoshop or other apps manually it's a great amount of time waste.This basic script can extract all faces separately from the input folder and write them an output folder. Just put your all images into the input folder and let the script process all images that you've put on.
 
 Before the run script, you need to download http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2 file and paste it into your input folder.
 
