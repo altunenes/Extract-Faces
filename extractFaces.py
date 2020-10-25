@@ -37,10 +37,10 @@ for img in glob.glob(inputfolder + "/*.jpg"):  #images in the input file must be
             y=landmarks.part(n).y
             landmarks_points.append((x,y))
 
-        #cv2.circle(target,(x,y),3,(0,255,0),-1)
+        
         points=np.array(landmarks_points,np.int32)
         convexhull=cv2.convexHull(points)
-        #cv2.polylines(target,[convexhull],True,(255,0,0),3)
+        
         cv2.fillConvexPoly(mask,convexhull,255)
 
         target_face_1=cv2.bitwise_and(target,target,mask=mask)
