@@ -1,5 +1,5 @@
 # Extract-Faces
-When you need to extract faces from their bodies or heads with photoshop or other apps manually, it's a great amount of time waste.This basic script can extract all faces separately from the input folder and write them an output folder. Just put your all images into the input folder and let the script process all images that you've put on.
+When you need to extract faces from their bodies or heads with photoshop or other apps manually, it's a great amount the waste of time.This basic script can extract all faces separately from the input folder and write them an output folder. Just put your all images into the input folder and let the script process all images that you've put on.
 
 Before the run script, you need to download http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2 file and paste it into your input folder.
 
