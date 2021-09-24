@@ -6,7 +6,7 @@ Before the run script, you need to download http://dlib.net/files/shape_predicto
 
 With extractFaces script, you can extract all faces from an image but this script doesn't provide you to save faces as jpg individually.   If you want to extract all faces and save them separately you need to use "Extract.Individually.py" script. This script provides you better results than OPENCV's haar cascade models.
 
-
+Note: You can change the image extensions. I set it to as jpg.
 
 An example iamge that processed by the "  Extract.Individually.py" script:"
 
