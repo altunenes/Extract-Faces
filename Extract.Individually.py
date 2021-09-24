@@ -1,7 +1,8 @@
 """
 # ==========================================================================================================================================================
 #                                                                       Author: Enes Altun
-                                                  Don't' forget to download detector and add to your working directory to use this script!
+                                        Don't' forget to download detector and add to your working directory to use this script!
+                              Note: You can change the landmarks range in the 44. Dlib provides you 0 to 68 but with this custom detector, you could expand to 0-81.
                                                                           
 # ==========================================================================================================================================================
 """
@@ -40,7 +41,7 @@ for img in glob.glob(inputfolder + "/*.jpg"):  #images in the input file must be
     for face in faces:
         landmarks=predictor(target_gray,face)
         landmarks_points=[]
-        for n in range(0,68):
+        for n in range(0,81):
             x=landmarks.part(n).x
             y=landmarks.part(n).y
             landmarks_points.append((x,y))
