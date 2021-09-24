@@ -8,13 +8,14 @@ With extractFaces script, you can extract all faces from an image but this scrip
 
 
 
-An example iamge that processed by the "extractFaces.py" script:
+An example iamge that processed by the "  Extract.Individually.py" script:"
+
+
+![image](https://user-images.githubusercontent.com/54986652/134653947-ada0856c-9e5d-4c2a-a26f-a598dcc800af.png)
+
+
+The same image that processed by the "extractFaces.py":
 
 ![1200px-STS-106_crew](https://user-images.githubusercontent.com/54986652/97113612-ae7e1400-16fc-11eb-9cf4-0043f83f2aa4.jpg)
 
 ![image0006](https://user-images.githubusercontent.com/54986652/97113618-b63db880-16fc-11eb-98eb-5ba7aeec0547.jpg)
-
-
-The same image that processed by the "Extract.Individually.py":
-
-![image](https://user-images.githubusercontent.com/54986652/134653947-ada0856c-9e5d-4c2a-a26f-a598dcc800af.png)
